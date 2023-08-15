@@ -1,0 +1,12 @@
+name: Deploy
+on:
+    push:
+        branches: [production]
+
+jobs:
+    deploy:
+        uses: BijanProgrammerWebsites/hub/.github/workflows/deploy-angular.yml@master
+        with:
+            host: projects.bijanprogrammer.com
+            base-href: /code-star-1401/
+            project-name: code-star-1401
