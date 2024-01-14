@@ -7,6 +7,6 @@ jobs:
     deploy:
         uses: BijanProgrammerWebsites/hub/.github/workflows/deploy-angular.yml@master
         with:
-            host: star-academy.ir
+            host: codestar.ir
             base-href: /
-            project-name: code-star
+            project-name: codestar
