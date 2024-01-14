@@ -44,7 +44,9 @@ section {
 
                     font-size: 20rem;
 
-                    transition: opacity var(--animation--duration--normal), transform var(--animation--duration--slow);
+                    transition:
+                        opacity var(--animation--duration--normal),
+                        transform var(--animation--duration--slow);
 
                     &:not(.fade-in) {
                         opacity: 0;
@@ -67,7 +69,8 @@ section {
                     h3 {
                         direction: ltr;
 
-                        transition: opacity var(--animation--duration--normal),
+                        transition:
+                            opacity var(--animation--duration--normal),
                             transform var(--animation--duration--slow);
 
                         &:not(.fade-in) {
@@ -82,7 +85,8 @@ section {
                     }
 
                     p {
-                        transition: opacity var(--animation--duration--normal),
+                        transition:
+                            opacity var(--animation--duration--normal),
                             transform var(--animation--duration--slow);
 
                         &:not(.fade-in) {
@@ -139,15 +143,15 @@ section {
 }
 
 @media (max-width: 800px) {
-	section {
-		main {
-			ul {
-				li {
-					align-items: center;
-					
-					text-align: center;
-				}
-			}
-		}
-	}
+    section {
+        main {
+            ul {
+                li {
+                    align-items: center;
+
+                    text-align: center;
+                }
+            }
+        }
+    }
 }

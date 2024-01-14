@@ -47,7 +47,9 @@ section {
                 padding: var(--padding);
 
                 h3 {
-                    transition: opacity var(--animation--duration--normal), transform var(--animation--duration--slow);
+                    transition:
+                        opacity var(--animation--duration--normal),
+                        transform var(--animation--duration--slow);
 
                     &:not(.fade-in) {
                         opacity: 0;
@@ -61,7 +63,9 @@ section {
                 }
 
                 p {
-                    transition: opacity var(--animation--duration--normal), transform var(--animation--duration--slow);
+                    transition:
+                        opacity var(--animation--duration--normal),
+                        transform var(--animation--duration--slow);
 
                     &:not(.fade-in) {
                         opacity: 0;

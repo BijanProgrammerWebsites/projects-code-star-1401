@@ -182,6 +182,7 @@ section {
                 &:not(.fade-in) {
                     .card {
                         .content {
+                            //noinspection CssInvalidFunction
                             transform: translateX(calc(var(--starting-position-multiplier) * -101%));
 
                             .title,
@@ -194,6 +195,7 @@ section {
                     .circle {
                         .line {
                             &::before {
+                                //noinspection CssInvalidFunction
                                 transform: translateX(calc(var(--starting-position-multiplier) * -101%));
                             }
                         }

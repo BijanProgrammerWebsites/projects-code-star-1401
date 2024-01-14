@@ -45,8 +45,8 @@ section {
 
                 .number {
                     --starting-position-multiplier: 1;
-	
-	                font-size: clamp(10rem, 1rem + 6vw, 14.4rem);
+
+                    font-size: clamp(10rem, 1rem + 6vw, 14.4rem);
                     font-weight: 700;
 
                     .text {
@@ -62,12 +62,13 @@ section {
 
                 .title {
                     --starting-position-multiplier: -1;
-	
-	                font-size: clamp(2.8rem, 1rem + 2vw, 3.6rem);
+
+                    font-size: clamp(2.8rem, 1rem + 2vw, 3.6rem);
                 }
 
                 &:not(.fade-in) {
                     .text {
+                        //noinspection CssInvalidFunction
                         transform: translateY(calc(var(--starting-position-multiplier) * 100%));
                     }
 
